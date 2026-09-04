@@ -1,7 +1,7 @@
 # IT221: LAN Network Project 
 
 **Overview:**
-Completed for the IT221 networking course, this project involved building a small local area network from scratch — connecting a router and multiple laptops in a Star topology — to observe device communication and apply basic security controls in an isolated environment with no internet access. The repository documents the full process: setup, configuration, testing, troubleshooting, and supporting screenshots.
+Completed for the IT221 networking course, this project involved building a small local area network from scratch connecting a router and multiple laptops in a Star topology to observe device communication and apply basic security controls in an isolated environment with no internet access. The repository documents the full process: setup, configuration, testing, troubleshooting, and supporting screenshots.
 
 **Objectives:**
 - Build and configure a functional LAN using a Star topology.
