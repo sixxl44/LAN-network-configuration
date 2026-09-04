@@ -1,42 +1,46 @@
-# LAN Network Project
+# IT221: LAN Network Project 
 
-A hands-on LAN networking project: connecting a router and multiple laptops in a Star topology, configuring static IP addressing, securing the network at the application and MAC-filtering level, enabling remote access, and diagnosing a real connectivity fault.
+**Overview:**
+Completed for the IT221 networking course, this project involved building a small local area network from scratch — connecting a router and multiple laptops in a Star topology — to observe device communication and apply basic security controls in an isolated environment with no internet access. The repository documents the full process: setup, configuration, testing, troubleshooting, and supporting screenshots.
 
-## Overview
+**Objectives:**
+- Build and configure a functional LAN using a Star topology.
+- Apply static IP addressing and confirm connectivity between devices.
+- Apply application-level and device-level security controls.
+- Enable remote access between devices on the network.
+- Diagnose and resolve a real connectivity fault through structured troubleshooting.
 
-This project simulates a small local area network in a controlled environment (no internet access), built to understand device communication, network security fundamentals, and structured troubleshooting.
+**Project Components:**
+- Network connection (static IP configuration, Ethernet setup, ping testing)
+- Firewall application blocking (BeeBEEP)
+- LAN chat and calling (LAN Messenger)
+- Remote device control (TeamViewer)
+- MAC address filtering (blacklist/whitelist via router settings)
 
-## What We Built
+**Technologies Used:**
+Router · Ethernet / Type-C cables · Static IP Configuration (TCP/IPv4) · Ping · BeeBEEP · LAN Messenger · TeamViewer · MAC Address Filtering
 
-**1. Network Setup**
-- Connected multiple laptops to a router via Ethernet in a Star topology
-- Assigned static IP addresses (subnet mask, default gateway) to each device
-- Verified connectivity between all devices using `ping`
+**My Contribution:**
+- Took part in the LAN setup, connecting devices to the router and configuring static IP addresses.
+- Investigated and resolved a "Destination Unreachable" connectivity error — checking the network configuration, replacing Ethernet cables, and ultimately identifying a faulty router as the cause.
+- Verified network communication using the ping command.
+- Prepared the project documentation: organized the report structure and captured implementation screenshots.
 
-**2. Application-Level Security**
-- Configured Windows Firewall to block a specific chat application (BeeBEEP) from accessing the network
-- Tested and confirmed the blocked application could no longer connect while other network traffic remained unaffected
+**Skills Demonstrated:**
+- Network Configuration
+- Network Troubleshooting
+- Local Network Security (firewall rules, MAC filtering)
+- Remote Device Management
+- Technical Documentation
+- Teamwork
 
-**3. LAN Communication Tools**
-- Used LAN Messenger for text chat and voice/video calls between devices without internet access
-
-**4. Remote Access**
-- Used TeamViewer to establish full remote control of another device within the LAN
-
-**5. MAC Address Filtering**
-- Accessed the router's MAC Filter settings and reviewed the blacklist of restricted devices
-- Identified all connected devices and their MAC addresses via the router's device list
-
-**6. Troubleshooting Case Study**
-While testing connectivity, we encountered a **"Destination Unreachable"** error using `ping`. We diagnosed the issue methodically:
-1. Suspected a hardware/cabling issue → replaced USB-based connections with more stable Type-C cables (issue persisted)
-2. Suspected the network equipment → replaced the router itself
-3. Result: connectivity fully restored, `ping` succeeded with 0% packet loss
-
-## My Contribution
-
-This was a 6-member group project. Along with three teammates, I worked on the network setup, connectivity configuration, application security (firewall), and troubleshooting tasks described above.
-
-## Tools Used
-
-Windows Firewall · TeamViewer · LAN Messenger · BeeBEEP · Router MAC Filter settings · Command Prompt (`ping`, `ipconfig`)
+**Documentation:**
+The full project report covers:
+- Introduction and network topology
+- Network connection setup and testing
+- Firewall configuration
+- Chat and calling program setup
+- Remote control setup
+- MAC address filtering
+- Problems encountered and troubleshooting
+- References
