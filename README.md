@@ -1,4 +1,4 @@
-# LAN Network Project
+# LAN Network Project.
 
 A hands-on LAN networking project: connecting a router and multiple laptops in a Star topology, configuring static IP addressing, securing the network at the application and MAC-filtering level, enabling remote access, and diagnosing a real connectivity fault.
 
